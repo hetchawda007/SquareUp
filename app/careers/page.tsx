@@ -8,6 +8,7 @@ import Careercomponent3 from '../components/Careercomponent3'
 import Section from '../components/Section'
 
 const Page = () => {
+  
   return (
     <>
       <div className='container w-full flex flex-col items-center justify-center mx-auto px-24 max-md:px-5'>

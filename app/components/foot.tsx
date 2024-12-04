@@ -15,7 +15,7 @@ const Foot: React.FC<params> = ({ text1, text2 }) => {
 
     useEffect(() => { }, [isInView]);
     return (
-        <div ref={ref} className="border border-[#262626] bg-[url('/banner-1.jpg')] flex flex-col items-center justify-center gap-8 md:bg-contain bg-center w-full mx-auto py-20 max-md:w-full max-md:px-5"
+        <div ref={ref} className="border border-[#262626] bg-[url('/banner-1.jpg')] flex flex-col items-center text-center justify-center gap-8 md:bg-contain bg-center w-full mx-auto py-20 max-md:w-full max-md:px-5"
             style={{
                 opacity: isInView ? 1 : 0,
                 transition: "4s",

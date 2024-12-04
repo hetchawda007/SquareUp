@@ -36,7 +36,7 @@ const Works: React.FC<WorksProps> = ({ heading, name, imagesrc, src, description
                             <div className='px-4 py-2 bg-[#262626] text-[#98989A] font-light rounded-md'>{src}</div>
                         </Link>
                     </div>
-                    <Link target='_blank' href={src}>
+                    <Link className='max-md:hidden' target='_blank' href={src}>
                         <div className='bg-[#262626] p-4 rounded-xl hover:bg-[#1d1d1d]'>
                             <Image className='h-[14px] w-auto ' src={'/arrow.png'} alt='' width={100} height={100}></Image>
                         </div>

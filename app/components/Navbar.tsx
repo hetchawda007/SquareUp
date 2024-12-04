@@ -59,7 +59,7 @@ const Navbar = () => {
             <Link href={'/process'}><li className="cursor-pointer p-[10px] rounded-lg hover:bg-[#262626]" style={{ backgroundColor: params == '/process' ? '#262626' : '' }}>Process</li></Link>
             <Link href={'/about'}><li className="cursor-pointer p-[10px] rounded-lg hover:bg-[#262626]" style={{ backgroundColor: params == '/about' ? '#262626' : '' }}>About</li></Link>
             <Link href={'/careers'}><li className="cursor-pointer p-[10px] rounded-lg hover:bg-[#262626]" style={{ backgroundColor: params == '/careers' ? '#262626' : '' }}>Careers</li></Link>
-            <Link href={'/contact'}><li className="cursor-pointer p-[10px] rounded-lg hover:bg-[#262626]" style={{ backgroundColor: params == '/careers' ? '#262626' : '' }}>Contact</li></Link>
+            <Link href={'/contact'}><li className="cursor-pointer p-[10px] rounded-lg hover:bg-[#262626]" style={{ backgroundColor: params == '/contact' ? '#262626' : '' }}>Contact</li></Link>
           </ul>
         </nav>
 

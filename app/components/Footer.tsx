@@ -20,6 +20,7 @@ const Footer = () => {
         <div className="flex items-center justify-between text-[14px] py-2 max-lg:flex-col max-md:gap-5">
           <div className="flex gap-2 items-center cursor-pointer">
             <Image
+              priority
               className="h-12 w-auto"
               src="/logo.png"
               alt="logo"

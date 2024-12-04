@@ -8,6 +8,7 @@ import Section from '../components/Section'
 
 const Page = () => {
   const ref1 = useRef(null)
+
   const isInView1 = useInView(ref1, { once: true });
   useEffect(() => { }, [isInView1]);
   const ref2 = useRef(null)
