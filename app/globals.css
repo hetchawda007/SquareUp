@@ -1,27 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.range-1 {
+    width: 600px;
+    border-radius: 20px;
+    height: 4px;
+    background: #ddd;
+}
+
+
+.range-1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 14px;
+    width: 14px;
+    background: #00ab11;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.range-1:hover {
+    height: 4.2px;
+    filter: brightness(2);
+}
+
+.range-1::-webkit-slider-thumb:hover {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
-}
+  
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
